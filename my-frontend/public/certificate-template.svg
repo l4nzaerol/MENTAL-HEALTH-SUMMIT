@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 707" role="img" aria-label="Certificate template">
+  <rect width="1000" height="707" fill="#fffcf7"/>
+  <rect x="28" y="28" width="944" height="651" fill="none" stroke="#1f6f64" stroke-width="3"/>
+  <rect x="40" y="40" width="920" height="627" fill="none" stroke="#c4a35a" stroke-width="1.5"/>
+  <path d="M80 88h840" stroke="#d7e0d8" stroke-width="1"/>
+  <circle cx="500" cy="92" r="18" fill="none" stroke="#c4a35a" stroke-width="2"/>
+  <path d="M493 92l5 5 10-12" fill="none" stroke="#1f6f64" stroke-width="2"/>
+</svg>
