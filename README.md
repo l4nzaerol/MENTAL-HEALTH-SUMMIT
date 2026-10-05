@@ -15,9 +15,9 @@ One email issues one certificate. A repeat submission returns the existing certi
 
 1. Create a Google Sheet.
 2. Open **Extensions → Apps Script**.
-3. Paste `apps-script/Code.gs` into `Code.gs`.
-4. Create a second file named `Certificate` (HTML) and paste `apps-script/Certificate.html`.
-5. Run `setupSummitSheet` once (authorize the script).
+3. Paste `apps-script/Code.gs` into `Code.gs`. That file already includes the QR certificate page, so a second HTML file is optional.
+4. Run `setupSummitSheet` once (authorize the script).
+5. After any edit, deploy a **new version** of the web app (not only Save).
 6. Deploy **Web app**:
    - Execute as: **Me**
    - Who has access: **Anyone**
