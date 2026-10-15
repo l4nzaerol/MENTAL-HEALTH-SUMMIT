@@ -4,6 +4,10 @@ export const EVENT = {
   tagline: 'Seminar feedback & certificate of participation',
   dateLabel: '2026',
   venueName: 'Summit venue',
+  banner: {
+    src: '/img/ok%20lang%20yan.jpg',
+    alt: "Ok lang 'yan — Bagong Cabuyao Mental Health and Wellness Summit",
+  },
 }
 
 export const SPEAKERS = [

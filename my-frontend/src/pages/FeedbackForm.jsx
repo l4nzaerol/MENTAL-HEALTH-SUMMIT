@@ -88,14 +88,8 @@ export default function FeedbackForm({ onIssued }) {
 
   return (
     <main className="page">
-      <header className="hero-card">
-        <p className="eyebrow">{EVENT.dateLabel}</p>
-        <h1>{EVENT.name}</h1>
-        <p className="lede">{EVENT.tagline}</p>
-        <p className="note">
-          Complete this form after the seminar. Your e-certificate is issued as soon as
-          feedback is saved.
-        </p>
+      <header className="hero-banner">
+        <img src={EVENT.banner.src} alt={EVENT.banner.alt} />
       </header>
 
       <form className="card form" onSubmit={handleSubmit}>

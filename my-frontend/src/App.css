@@ -17,6 +17,35 @@
   margin-bottom: 20px;
 }
 
+.hero-banner {
+  /* Crop the poster here. Save this file to see the change. */
+  --banner-height: 380px; /* taller = more of the poster */
+  --banner-x: 50%; /* 0% left, 50% center, 100% right */
+  --banner-y: 28%; /* 0% top, 50% middle, 100% bottom */
+  --banner-zoom: 1; /* 1 fills the strip; 1.2 zooms in */
+
+  position: relative;
+  margin-bottom: 20px;
+  height: var(--banner-height);
+  min-height: var(--banner-height);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  box-shadow: 0 12px 32px rgba(20, 61, 56, 0.06);
+  background: #d7ecf5;
+}
+
+.hero-banner img {
+  display: block;
+  width: 100%;
+  height: var(--banner-height);
+  min-height: var(--banner-height);
+  object-fit: cover;
+  object-position: var(--banner-x) var(--banner-y);
+  transform: scale(var(--banner-zoom));
+  transform-origin: var(--banner-x) var(--banner-y);
+}
+
 .hero-card.compact {
   text-align: center;
 }
